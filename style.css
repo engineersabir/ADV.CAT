@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+nav{
+    background: #447D9B;
+    color: white;
+}
+.box{
+    height: 34px;
+}
+nav ul{
+    padding-top: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    justify-content: space-evenly;
+
+}
+nav ul a{
+    /* padding-top: 43px; */
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+
+.c:hover{
+    /* background: red; */
+    /* color: blue; */
+    font-weight: 700;
+    /* color: chartreuse; */
+
+}
+.s:hover{
+    font-weight: 700;
+}
+.a:hover{
+    font-weight: 700;
+}
+.h:hover{
+    font-weight: 700;
+}
