@@ -43,3 +43,9 @@ nav ul a{
 .h:hover{
     font-weight: 700;
 }
+.color:hover{
+    background-color: rgb(211, 67, 202);
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+}
