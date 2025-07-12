@@ -3,12 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    height: 95vh;
-    margin: 0;
-    padding: 0;
-    background-image: url(puwan.png.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: contain;
+
+body {
+  height: 100vh;
+  background-image: url('puwan.png.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #000; /* fallback bg behind the image */
 }
