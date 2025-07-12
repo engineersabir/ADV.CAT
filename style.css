@@ -3,7 +3,23 @@
     padding: 0;
 box-sizing: border-box;
 }
+.one{
+    display: flex;
+    justify-content: left;
+    color: black;
+}
+
+.one{
+    margin-top: 0;
+    height: 0;
+    width: 200px;
+}
+.one h4{
+    margin-top: 33px;
+}
 nav{
+    padding-top: 0;
+    margin-top: 0;
     position: relative;
     margin-left: 300px;
     /* padding-right: 25px; */
