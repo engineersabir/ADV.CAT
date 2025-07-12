@@ -4,8 +4,13 @@
 box-sizing: border-box;
 }
 nav{
+    position: relative;
+    margin-left: 300px;
+    /* padding-right: 25px; */
     background: #447D9B;
     color: white;
+    width: 980px;
+    height: 89.4px;
 }
 .box{
     height: 34px;
@@ -43,9 +48,9 @@ nav ul a{
 .h:hover{
     font-weight: 700;
 }
-.color:hover{
+/* .color:hover{
     background-color: rgb(211, 67, 202);
     cursor: pointer;
     height: 50px;
     width: 100px;
-}
+} */
