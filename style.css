@@ -68,3 +68,23 @@ nav ul a{
     text-transform: uppercase;
     
 }
+.photo img{
+    padding-top: 24PX;
+    height: 50%;
+    width: 50%;}
+    .photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    background: #1F2937;
+    height: 150px;
+    color: #F9FAFB;
+    
+}
+footer img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
