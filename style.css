@@ -88,3 +88,17 @@ footer img{
     align-items: center;
     justify-content: center;
 }
+.copywrite span{
+    /* bottom: 43px; */
+    
+  position: relative;
+  bottom: 10;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.facebook-logo img{
+    width: 24px;
+    height: 28px;
+}
