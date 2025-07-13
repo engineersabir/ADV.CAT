@@ -12,3 +12,8 @@ body {
   background-size: cover;
   background-color: #000; /* fallback bg behind the image */
 }
+
+blockquote{
+  align-items: end;
+  display: contents;
+}
