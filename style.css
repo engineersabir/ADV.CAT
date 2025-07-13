@@ -3,21 +3,26 @@
     padding: 0;
 box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
+
 main{
+    flex: 1;
     height: 680px;
     
-    background: #0B1D51;
+    background: #9ACBD0;
 }
-.one{
+ .one{
     display: flex;
     justify-content: left;
     color: black;
-    background: red;
-     margin-top: 0;
+ margin-top: 0;
     height: 0;
     width: 230px;
 }
 .one h4{
+    
     margin-top: 33px;
 }
 nav{
@@ -30,6 +35,7 @@ nav{
     color: white;
     width: 980px;
     height: 89.4px;
+    overflow: hidden;
 }
 .box{
     height: 34px;
@@ -60,10 +66,5 @@ nav ul a{
 .one h4{
     
     text-transform: uppercase;
-    
-}
-main img{
-    height: 400px;
-    width: 380px;
     
 }
