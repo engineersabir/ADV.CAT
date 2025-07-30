@@ -36,6 +36,36 @@ h2{
 p{
     color: #555;
 }
+
+header {
+  background: #447D9B;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
+}
+
+.logo h4 {
+  text-transform: uppercase;
+}
+
+nav .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+nav .link {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s ease;
+}
+nav .link:hover {
+  font-weight: bold;
+  color: #7cf03d;
+}
 article{
    box-shadow: 0 55px 415px rgba(0,0, 0, 0.9); 
   margin-top: 100px;
