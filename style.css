@@ -113,7 +113,8 @@ footer {
     align-items: flex-start;
   }
 }
-.sci div{
+.sci div p{
+ display: flex;
   align-items: center;
   
 }

@@ -6,7 +6,7 @@
 
 body {
   height: 100vh;
-  background-image: url('puwan.png.jpg');
+  background-image: url('david-veksler-HpmDAS1Dozs-unsplash.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -35,4 +35,10 @@ h2{
 }
 p{
     color: #555;
+}
+article{
+   box-shadow: 0 55px 415px rgba(0,0, 0, 0.9); 
+  margin-top: 100px;
+  display: block;
+  align-items: end;
 }
