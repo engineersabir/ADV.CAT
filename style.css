@@ -54,12 +54,18 @@ main {
 .photo img {
   /* max-width: 100%; */
   /* height: auto; */
-   width: 80%;
-  max-width: 300px;
-  height: auto;
-  
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+   
+  width: 85%;           /* Not full width, but big */
+  max-width: 1000px;    /* Don't let it go crazy huge */
+  height: auto;         /* Keep original proportions */
+  display: block;
+  margin: 40px auto;    /* Centers the image + spacing */
+  border-radius: 12px;  /* Rounded corners */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);  /* Soft shadow */
+
+
+  /* border-radius: 10px; */
+  /* box-shadow: 0 0 10px rgba(0,0,0,0.1); */
 }
 
 footer {
