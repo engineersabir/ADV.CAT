@@ -52,7 +52,10 @@ main {
 }
 
 .photo img {
-  max-width: 100%;
+  /* max-width: 100%; */
+  /* height: auto; */
+   width: 80%;
+  max-width: 300px;
   height: auto;
   
   border-radius: 10px;
@@ -106,5 +109,5 @@ footer {
 }
 .sci div{
   align-items: center;
-  margin-top: 12px;
+  
 }
