@@ -99,10 +99,56 @@
   to {
     opacity: 1;
   }
+  
 }
 
+header {
+  background: #447D9B;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
+}
+
+.logo h4 {
+  text-transform: uppercase;
+}
+
+nav .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+nav .link {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s ease;
+}
+nav .link:hover {
+  font-weight: bold;
+  color: #7cf03d;
+}
 </style>
+
 <body>
+    
+<header>
+    <div class="logo">
+      <h4><span class="highlight">Malik Associates</span> <b>&</b> Firm</h4>
+    </div>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a class="link" href="./index.html">HOME</a></li>
+        <li><a class="link" href="./contact.html">CONTACT ME</a></li>
+        <li><a class="link" href="./Practice.html">PRACTICE AREAS</a></li>
+        <li><a class="link" href="./about.html">ABOUT ME</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <section class="practice-areas">
     <h2>Our Practice Areas</h2>
@@ -167,26 +213,6 @@
 
   <script src="script.js">
     
-//     document.querySelectorAll(".accordion-toggle").forEach(button => {
-//   button.addEventListener("click", () => {
-//     const content = button.nextElementSibling;
-
-//     const isOpen = content.style.maxHeight && content.style.maxHeight !== "0";
-
-//     // Close all others
-//     document.querySelectorAll(".accordion-content").forEach(c => {
-//       c.style.maxHeight = null;
-//       c.previousElementSibling.textContent = "View More";
-//     });
-
-//     // If not open already, open it
-//     if (!isOpen) {
-//       content.style.maxHeight = content.scrollHeight + "";
-//       button.textContent = "block";
-//     }
-//   });
-// });
-
   </script>
 </body>
 </html>
